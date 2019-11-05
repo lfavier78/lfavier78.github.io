@@ -1,0 +1,104 @@
+/* BODY TEXT */
+
+
+body {
+
+	font-size: 14px;
+	margin : 0;
+ 
+	padding : 40px 20px;
+
+	font:x-small "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	background-color: #ffffff;
+
+	color: #000000;
+	font-style: normal;
+
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+P,TD,LI,ADDRESS {
+	font-size: 14px;
+	font-style: normal;
+}
+
+/* HYPERLINKS */
+
+
+A:link {
+	color:#58a;
+	text-decoration:none;
+}
+A:visited {
+	color:#58a;
+	text-decoration:none;
+}
+A:img {
+
+	border-width:0;
+}
+
+A:hover {
+
+	text-decoration:underline;
+
+	color: #c60;
+
+}
+
+
+/**** HEADER ****/
+
+
+
+
+h2 {
+
+  margin:1.5em 0 .75em;
+  font:bold 110%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+}
+
+
+
+
+h3 {
+
+  font-size: 140%;
+  color : #c60;
+}
+
+
+
+h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;
+}
+
+
+h5 {
+
+  font-size: 100%;
+  color:#999;
+}
+
+
+h6 {
+
+  font-size: 80%;
+  color:#999;
+  font-weight: normal;
+}
+
+
+
+
+
