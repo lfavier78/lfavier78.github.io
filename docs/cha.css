@@ -1,6 +1,5 @@
 /* BODY TEXT */
 
-
 body {
 
 	font-size: 14px;
@@ -17,11 +16,17 @@ body {
 	font-weight: normal;
 	text-decoration: none;
 }
-
-
-
-P,TD,LI,ADDRESS {
+li {
+line-height: 115%;
+list-style-type: circle; /* on annule la puce par défaut */
+background-image: url(image.png); /* on affiche l'image souhaitée */
+background-repeat: no-repeat; /* on annule la répétition par défaut */
+background-position: left; /* on positionne où l'on veut */
+padding-left: 20px; /* pour éviter la superposition du contenu */	
+}
+p,td,li,address {
 	font-size: 14px;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	font-style: normal;
 }
 
@@ -37,23 +42,14 @@ A:visited {
 	text-decoration:none;
 }
 A:img {
-
 	border-width:0;
 }
-
 A:hover {
-
 	text-decoration:underline;
-
 	color: #c60;
-
 }
 
-
 /**** HEADER ****/
-
-
-
 
 h2 {
 
@@ -63,18 +59,11 @@ h2 {
   letter-spacing:.2em;
   color:#999;
 }
-
-
-
-
 h3 {
 
   font-size: 140%;
   color : #c60;
 }
-
-
-
 h4 {
   margin:1em 0;
   font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
@@ -82,15 +71,11 @@ h4 {
   letter-spacing:.2em;
   color:#999;
 }
-
-
 h5 {
 
   font-size: 100%;
   color:#999;
 }
-
-
 h6 {
 
   font-size: 80%;
